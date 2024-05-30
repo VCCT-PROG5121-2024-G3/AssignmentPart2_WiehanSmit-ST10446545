@@ -81,7 +81,7 @@ public class TaskTest {
                            "Developer: Robyn Harrison\n" +
                            "Duration: 8 hours\n" +
                            "Task ID: LO:0:SON\n" +
-                           "Status: To Do"; // Expected task details
+                           "Status: To Do"; 
         String result = instance.printTaskDetails();
         assertEquals(expResult, result);
         
